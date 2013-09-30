@@ -1,0 +1,7 @@
+
+<% rtfs = { "field" => "rtf_file.rtf" } %>
+<ul>
+<% rtfs.each do |name, rtf| %>
+<li><%= link_to name, "demo/#{rtf}" %></li>
+<% end %>
+</ul>
